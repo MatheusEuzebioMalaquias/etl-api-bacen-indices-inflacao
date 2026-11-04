@@ -1,3 +1,5 @@
+🇧🇷 Português · [🇬🇧 English](README.en.md)
+
 # ETL API BACEN: Índices de Inflação
 
 Projeto de extração e cálculo de índices de inflação a partir das APIs abertas do Banco Central do Brasil (SGS). O script consulta as séries, calcula o acumulado de 12 meses e gera um gráfico comparativo dos quatro principais índices.
