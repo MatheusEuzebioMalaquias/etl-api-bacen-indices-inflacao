@@ -78,13 +78,6 @@ Requires Python 3.10 or higher and internet access.
 
 This project is a local reimplementation, in pandas, of a pipeline I built with PySpark and Delta Lake. In the original environment, extraction ran in a RAW notebook, transformation in a TREATED notebook, and the output was loaded into Delta tables consumed by a BI report. Here, the query and calculation logic was kept, using public BCB data, so anyone can run the code.
 
-## Next steps
-
-- Add Boletim Focus expectations (annual IPCA, Selic and exchange rate)
-- Add the Selic target rate and the ex-ante real interest rate
-- Add data quality tests, such as null counts and duplicates per date and index
-- Rewrite the extraction in PySpark with Delta storage, as in the original environment
-
 ## Tech stack
 
 Python, pandas, NumPy, Matplotlib and the Central Bank of Brazil SGS API.

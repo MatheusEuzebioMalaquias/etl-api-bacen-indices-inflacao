@@ -78,13 +78,6 @@ Requer Python 3.10 ou superior e acesso à internet.
 
 Este projeto é uma reimplementação local, em pandas, de um pipeline que construí em PySpark com Delta Lake. No ambiente original, a extração ficava em um caderno RAW, a transformação em um caderno TREATED e a carga em tabelas Delta consumidas por um relatório de BI. Aqui, a lógica de consulta e de cálculo foi mantida, com dados públicos do BCB, para que o código possa ser executado por qualquer pessoa.
 
-## Próximos passos
-
-- Incluir as expectativas do Boletim Focus (IPCA anual, Selic e câmbio)
-- Incluir a Selic meta e a taxa de juros real ex-ante
-- Adicionar testes de qualidade, como contagem de nulos e duplicatas por data e indicador
-- Reescrever a consulta em PySpark, com gravação em Delta, como no ambiente original
-
 ## Tecnologias
 
 Python, pandas, NumPy, Matplotlib e API SGS do Banco Central do Brasil.
