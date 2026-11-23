@@ -1,4 +1,4 @@
-🇧🇷 Português · [🇬🇧 English](README.en.md)
+> 🇬🇧 [English version](README.en.md)
 
 # ETL API BACEN: Índices de Inflação
 
@@ -91,4 +91,5 @@ Python, pandas, NumPy, Matplotlib e API SGS do Banco Central do Brasil.
 
 ## Autor
 
-Matheus Euzebio Malaquias
+**Matheus Euzebio Malaquias**
+[GitHub](https://github.com/MatheusEuzebioMalaquias)
